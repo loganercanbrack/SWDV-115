@@ -1,0 +1,53 @@
+/*
+	Logan Ercanbrack
+	February 15, 2024
+*/
+
+/* style header and footer to have the same background color */
+header,
+footer {
+	background-color: orange;
+}
+
+/* style p, ul, and li to have font size of 20 pixels */
+p,
+ul,
+li {
+	font-size: 20px;
+}
+
+/* Target the link by its href attribute to specifically style only this link */
+a[href="http://www.theonion.com/articles/cia-to-shift-focus-to-greeting-cards,4312/"] {
+	color: #000000;
+	/* Default link color */
+	text-decoration: none;
+	/* Removes underline from links by default */
+}
+
+/* Style for a link that has not been visited */
+a[href="http://www.theonion.com/articles/cia-to-shift-focus-to-greeting-cards,4312/"]:link {
+	color: #0000FF;
+}
+
+/* Style for a link that has been visited */
+a[href="http://www.theonion.com/articles/cia-to-shift-focus-to-greeting-cards,4312/"]:visited {
+	color: #1aff00;
+}
+
+/* Style for when the user hovers over the link */
+a[href="http://www.theonion.com/articles/cia-to-shift-focus-to-greeting-cards,4312/"]:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	/* Adds underline on hover */
+}
+
+/* Style for when the link is being clicked */
+a[href="http://www.theonion.com/articles/cia-to-shift-focus-to-greeting-cards,4312/"]:active {
+	color: #ff00f7;
+}
+
+/* 
+	All color codes were obtained using the color picker at the below link:
+		https: //www.google.com/search?q=color+picker&oq=color+picker&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiDARixAxiABDIHCAEQABiABDINCAIQABiDARixAxiABDIKCAMQABixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIHCAYQABiABDIGCAcQBRhA0gEIMjA1NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+	Hex codes were used
+*/
