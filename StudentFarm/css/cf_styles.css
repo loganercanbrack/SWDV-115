@@ -1,0 +1,71 @@
+/*
+
+	Logan Ercanbrack
+	February 27, 2024
+	SWDV-115
+
+*/
+
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+	margin: auto;
+}
+
+main {
+	background-color: #C5A98B;
+}
+
+#outerwrapper {
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.floatleft {
+	float: left;
+	margin-right: 3%;
+
+}
+
+.floatright {
+	float: right;
+	margin-left: 3%;
+
+}
+
+main,
+footer {
+	clear: both;
+}
+
+main {
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+
+	background-color: #964B00;
+	font-size: 0.75em;
+	padding: 10px 0 10px 0;
+}
+
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+}
